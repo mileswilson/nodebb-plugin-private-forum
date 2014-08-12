@@ -1,0 +1,15 @@
+{
+      "id": "nodebb-plugin-private-forum"
+    , "name": "NodeBB Private Forum Plugin"
+    , "description": "Allows a user to set up a private category"
+    , "url": "https://github.com/psychobunny/nodebb-plugin-youtube"
+    , "library": "./library.js"
+    , "hooks": [
+        {
+            "hook": "filter:header.build", "method": "addNavigation"
+        },
+        {
+            "hook": "static:app.load", "method": "init"
+        }]
+    , "templates": "./templates"
+}
