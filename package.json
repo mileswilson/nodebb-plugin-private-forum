@@ -1,0 +1,15 @@
+{
+  "name": "nodebb-plugin-private-forum",
+  "version": "0.0.1",
+  "description": "NodeBB Plugin to allow users to create a private forum (category)",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin"
+  ],
+  "author": "Miles Wilson",
+  "license": "ISC"
+}
